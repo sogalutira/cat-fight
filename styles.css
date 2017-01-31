@@ -1,0 +1,69 @@
+h1 {
+  color: blue;
+}
+
+h1:hover {
+  color: black;
+}
+
+#cat-kick {
+  width: 100px;
+  height: 100px;
+  background-image:url("/assets/catkick.png");
+}
+
+#cat-kick:hover {
+  animation: kick steps(5) .8s infinite;
+}
+
+@keyframes kick {
+  from { background-position:    0px; }
+  to { background-position: -500px; }
+}
+
+#cat-powerup {
+  width: 100px;
+  height: 100px;
+  background-image:url("/assets/catpowerup.png");
+}
+
+#cat-powerup:hover {
+  animation: powerup steps(5) .5s infinite;
+}
+
+@keyframes powerup {
+  from { background-position:    0px; }
+  to { background-position: -500px; }
+}
+
+#cat-fireball {
+  width: 100px;
+  height: 100px;
+  background-image:url("/assets/cathadoken.png");
+}
+
+#cat-fireball:hover {
+  animation: fireball steps(5) 1s infinite;
+}
+
+@keyframes fireball {
+  from { background-position:    0px; }
+  to { background-position: -500px; }
+}
+
+div.energy {
+  color: blue;
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  background-image:url("/assets/catenergyfx.png");
+}
+
+div.energy:hover{
+  animation: moveBall steps(7) 1s infinite;
+}
+
+@keyframes moveBall {
+  from { background-position:    0px; left: 5px; }
+  to { background-position: -450px; left: 300px;}
+}
