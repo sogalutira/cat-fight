@@ -37,20 +37,15 @@ function kiBlast(e){
   }
 }
 
-function charge(){
-  catPower.classList.add('power');
-}
 
 function takeOff(){
   clearTimeout(this.downTimer);
   if (catPower.attributes.className === null || catPower.attributes.className === undefined){
     this.downTimer = setTimeout(function(){
-      catPower.classList.remove('power');
       catPower.classList.add('fly');
     }, 1000);
   }
 }
-
 
 function charging(){
   clearTimeout(this.downTimer);

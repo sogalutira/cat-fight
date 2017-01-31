@@ -70,8 +70,6 @@ div.kicking {
 
 div.power {
   animation: powerup steps(5) .5s infinite;
-             /*moveup 1s infinite normal ease-out;*/
-  /*animation-delay: 0s, 2s;*/
 }
 
 @keyframes powerup {
@@ -89,17 +87,6 @@ div.fly {
   from { top: 300px; }
   to { top: -100px; }
 }
-
-/*div.fly2 {
-  animation: powerup steps(5) .8s infinite,
-             moveup2 2s normal ease-out;
-  animation-delay: 0s, 1s;
-}
-
-@keyframes moveup2 {
-  from { top: 300px; }
-  to { top: 150px; }
-}*/
 
 #cat-ball-container {
   display: inline;
@@ -132,7 +119,7 @@ div.energy {
   height: 70px;
   display: inline-block;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   background-image:url("/assets/catenergyfx.png");
   animation: moveBall steps(7) 1s infinite;
   z-index: 2;
