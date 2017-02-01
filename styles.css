@@ -80,7 +80,7 @@ div.power {
 div.fly {
   animation: powerup steps(5) .8s infinite,
              moveup1 1.8s normal ease-out;
-  animation-delay: 0s, 1s;
+  animation-delay: 0s, 0.5s;
 }
 
 @keyframes moveup1 {
