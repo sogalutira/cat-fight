@@ -25,18 +25,19 @@ At the completion of this exercise, students should understand:
 3. Use the DOM method to reference an element by its **ID**.
 4. **addEventListener()**s to the referenced element in step 3.
 
-   ```document.getElementById('div').addEventLisetner('click', greeting);
+    document.getElementById('div').addEventLisetner('click', greeting);
 
-      function greeting(){
-        console.log('hello!');
-      }```
+    function greeting(){
+      console.log('hello!');
+    }
 
   1. Cat fighter on the left tree branch listens for a *click* event when the mouse is clicked on the **X** target. On mouse click cat fighter learns the class *kicking*.
   2. Cat figher on the right tree branch listens for a *mousedown* to power up and learn the class *fly*. Cat figher also needs to listen for *mouseup* to stop power up.
   3. Cat figher on the ground listens for a *keydown*, specifically for the *spacebar* so that cat figher can learn classes *fire* and *energy*.
 5. **setTimeout()** is a powerful method for cat fighters to learn their class.
 
-    ```setTimeout(greeting, 3000);```
+```setTimeout(greeting, 3000);```
+
 6. Cat fighters learn their class by using **.classList**.
 
 ###Resources###
