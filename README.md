@@ -26,4 +26,5 @@ At the completion of this exercise, students should understand:
   * Cat fighter on the left tree branch listens for a 'click' event when the mouse is clicked on the X target. On mouse click cat fighter learns the class 'kicking'.
   * Cat figher on the right tree branch listens for a 'mousedown' to power up and learn the class 'fly'. Cat figher also needs to listen for 'mouseup' to stop power up.
   * Cat figher on the ground listens for a 'keydown', specifically for the 'spacebar' so that cat figher can learn to 'fire' 'energy'.
+4. setTimeout() is a powerful method for cat fighters to learn their class.
 
