@@ -17,7 +17,7 @@ To complete this project you will need the following:
 At the completion of this exercise, students should understand:
 * Event listeners
 * setTimeout() method
-* Class and Javascript
+* .classList.add, .classList.remove
 
 ###Your Challenge###
 1. Create an *app.js* file.
@@ -25,25 +25,25 @@ At the completion of this exercise, students should understand:
 3. Use the DOM method to reference an element by its **ID**.
 4. `addEventListener()`s to the referenced element in step 3.
 
-```
-document.getElementById('div').addEventListener('click', greeting);
+    ```
+    document.getElementById('div').addEventListener('click', greeting);
 
-function greeting(){
-  console.log('hello!');
-}
-```
+    function greeting(){
+      console.log('hello!');
+    }
+    ```
 
 5. `setTimeout()` is a powerful method for cat fighters to `.remove` class and rest.
 
-```
-setTimeout(greeting, 3000);
-```
+    ```
+    setTimeout(greeting, 3000);
+    ```
 
 6. Cat fighters `.add` and `.remove` their class by using `.classList`.
 
-```
-div.classList.add('className')
-```
+    ```
+    div.classList.add('className')
+    ```
 
 * Cat fighter with an **ID** of `cat-kick` listens for a `click` event when the mouse is clicked on the **X** target `document.getElementById('target1')`. On mouse click cat fighter learns the class `kicking`.
 
