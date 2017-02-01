@@ -22,7 +22,7 @@ At the completion of this exercise, students should understand:
 ###Your Challenge###
 1. Create an *app.js* file.
 2. Reference the *app.js* file in the *index.html* file.
-3. Use the DOM method to reference an element by its **ID**.
+3. Use the DOM method to reference an element by its **ID**. Each cat fighter *div* has its own **ID** and can be found in the *index.html* file.
 4. `addEventListener()`s to the referenced element in step 3.
 
     ```
