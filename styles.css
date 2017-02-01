@@ -48,6 +48,7 @@ h1:hover {
   z-index: 1;
 }
 
+/* ADD AND REMOVE 'kicking' TO 'cat-kick'*/
 div.kicking {
   animation: kick steps(5) .8s infinite;
 }
@@ -77,6 +78,7 @@ div.power {
   to { background-position: -500px; }
 }
 
+/* ADD AND REMOVE 'fly' TO 'cat-powerup' */
 div.fly {
   animation: powerup steps(5) .8s infinite,
              moveup1 1.8s normal ease-out;
@@ -104,6 +106,7 @@ div.fly {
   z-index: 2;
 }
 
+/* ADD AND REMOVE 'fire' TO 'cat-fireball' */
 div.fire {
   animation: fireball steps(5) 1s infinite;
 }
@@ -113,6 +116,7 @@ div.fire {
   to { background-position: -500px; }
 }
 
+/* ADD AND REMOVE 'energy' TO 'big-blast' */
 div.energy {
   color: blue;
   width: 60px;

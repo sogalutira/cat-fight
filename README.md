@@ -39,7 +39,7 @@ At the completion of this exercise, students should understand:
     setTimeout(greeting, 3000);
     ```
 
-6. Cat fighters `.add` and `.remove` their class by using `.classList`.
+6. Cat fighters `.add` and `.remove` their class by using `.classList`. You can check the *styles.css* file for the class names.
 
     ```
     div.classList.add('className')
@@ -62,7 +62,7 @@ function remove(){
 }
 ```
 
-####Stretch####
+###Stretch###
 
 ####Objectives####
 * setInterval() method
