@@ -81,12 +81,10 @@ function remove(){
 ###Resources###
 [addEventListener](http://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
-[W3 Schools setTimeout](http://www.w3schools.com/jsref/met_win_settimeout.asp)
-
 [classList](http://www.w3schools.com/jsref/prop_element_classlist.asp)
-
-[W3 Schools setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp)
 
 [W3 Schools clearInterval](http://www.w3schools.com/jsref/met_win_clearinterval.asp)
 
+[W3 Schools setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp)
 
+[W3 Schools setTimeout](http://www.w3schools.com/jsref/met_win_settimeout.asp)
