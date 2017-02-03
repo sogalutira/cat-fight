@@ -2,7 +2,7 @@
 In this project we will be working with JavaScript and CSS animations to practice using event listeners and the setTimeout method.
 
 ###Objective###
-To create a simple application using JavaScript and CSS to understand the functionality of event listeners. CSS animations will be used as visual cues when the event listeners are triggered.
+To create a simple application using JavaScript and CSS to understand the functionality of event listeners and the setTimeout() method. CSS animations will be used as visual cues when the event listeners are triggered.
 
 ###Prerequisites###
 In order to complete this project students must have the following:
@@ -69,7 +69,7 @@ function remove(){
 * clearInterval() method
 
 
-1. Cat fighter with an **ID** `cat-fireball` listens for a `keydown`, specifically for the `spacebar` so that cat fighter can learn classes `fire` and `energy`.
+1. Cat fighter with an **ID** `cat-fireball` listens for a `keydown`, specifically for the `spacebar`, so that cat fighter can learn the class `fire`.
 
 2. Cat fighter's energy blast has the **ID** `big-blast` with the class `energy`.
 
@@ -81,12 +81,10 @@ function remove(){
 ###Resources###
 [addEventListener](http://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
-[W3 Schools setTimeout](http://www.w3schools.com/jsref/met_win_settimeout.asp)
-
 [classList](http://www.w3schools.com/jsref/prop_element_classlist.asp)
-
-[W3 Schools setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp)
 
 [W3 Schools clearInterval](http://www.w3schools.com/jsref/met_win_clearinterval.asp)
 
+[W3 Schools setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp)
 
+[W3 Schools setTimeout](http://www.w3schools.com/jsref/met_win_settimeout.asp)
